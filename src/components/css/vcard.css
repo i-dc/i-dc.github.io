@@ -1,0 +1,443 @@
+.v-card.v-sheet {
+    padding: 20px;
+}
+
+.head-primary {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.head-socials {
+    display: inline-block;
+    float: left;
+}
+
+.head-messengers,
+.head-share {
+    display: inline-block;
+    float: right;
+}
+
+.head-share.v-btn:not(.v-btn--round).v-size--default {
+    margin: 10px 0 0 0;
+    min-width: auto;
+    padding: 0 2px;
+}
+
+.head-share.v-btn .v-btn__content .v-icon.material-icons {
+    color: #bbb;
+}
+
+.post-head {
+    clear: both;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.company {
+    background-size: contain;
+    background-position: center;
+    display: block;
+    float: left;
+    height: 100px;
+    margin: auto 10px auto 0;
+    width: 150px;
+}
+
+.main-info {
+    float: left;
+    margin: auto 30px;
+    display: block;
+}
+
+.qr-code {
+    cursor: pointer;
+    display: flex;
+    float: right;
+    transition: color .4s ease-out, opacity .4s ease-out;
+}
+
+.company.company_waviot {
+    background-image: url("../../assets/images/companies/waviot.png");
+}
+
+.info-icon.position_star.material-icons {
+    color: #ffb300;
+    vertical-align: top;
+}
+
+.location {
+    margin: 0 4px 0 2px;
+}
+
+.subway-line-icon {
+    margin: 0 0 0 4px;
+}
+
+.phone-messengers {
+    display: none;
+}
+
+.subway-distance {
+    display: block;
+}
+
+.vcard-line {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.vcard-line .info-icon.material-icons {
+    margin: 0 4px 0 0;
+}
+
+.info-icon.material-icons {
+    margin: 0 2px 0 0;
+    text-align: right;
+    vertical-align: -6px;
+    width: 28px;
+}
+
+.vcard-link {
+    display: inline-block;
+}
+
+.container.app-content .material-icons {
+    vertical-align: middle;
+}
+
+.qrcode {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: -10px 0 0 -10px;
+    transition: color .4s ease-out, opacity .4s ease-out;
+}
+
+.name-icon {
+    background: url("../../assets/images/icon.svg") no-repeat center;
+    background-size: 36px;
+    display: inline-block;
+    height: 36px;
+    vertical-align: -10px;
+    width: 36px;
+}
+
+.email-link,
+.phone-link {
+    display: inline-block;
+    margin: 0 2px 0 6px;
+}
+
+.location {
+    background-size: 24px 16px;
+    display: inline-block;
+    margin: 0 2px;
+    height: 16px;
+    vertical-align: middle;
+    width: 24px;
+}
+
+.iti-flag {
+    display: inline-block;
+    margin: 0 2px 0 4px;
+    vertical-align: middle;
+}
+
+.messenger,
+.social {
+    margin: 0 4px;
+}
+
+.operator {
+    background-size: 16px;
+    display: inline-block;
+    height: 16px;
+    margin: 0 0 0 4px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.messenger-separator {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.messenger,
+.social {
+    background-size: 24px;
+    display: inline-block!important;
+    height: 24px;
+    vertical-align: middle;
+    width: 24px;
+}
+
+.location.location_moscow {
+    background-image: url("../../assets/images/places/moscow.png");
+}
+
+.location.location_mosreg {
+    background-image: url("../../assets/images/places/mosreg.png");
+}
+
+.operator.operator_beeline {
+    background-image: url("../../assets/images/operators/beeline.png");
+}
+
+.operator.operator_mts {
+    background-image: url("../../assets/images/operators/mts.png");
+}
+
+.operator.operator_mgts {
+    background-image: url("../../assets/images/operators/mgts.png");
+}
+
+.operator.operator_megafon {
+    background-image: url("../../assets/images/operators/megafon.png");
+}
+
+.operator.operator_tele2 {
+    background-image: url("../../assets/images/operators/tele2.png");
+}
+
+.operator.operator_yota {
+    background-image: url("../../assets/images/operators/yota.png");
+}
+
+.operator.operator_motiv {
+    background-image: url("../../assets/images/operators/motiv.png");
+}
+
+.operator.operator_tinkoff {
+    background-image: url("../../assets/images/operators/tinkoff.svg");
+    background-color: #424b8b;
+    background-position: center;
+    background-size: 16px;
+    border-radius: 11px;
+    height: 22px;
+    width: 22px;
+}
+
+.messenger.messenger_telegram {
+    background-image: url("../../assets/images/socials/telegram.png");
+}
+
+.messenger.messenger_whatsapp {
+    background-image: url("../../assets/images/socials/whatsapp.png");
+}
+
+.social.social_vk {
+    background-image: url("../../assets/images/socials/vk.png");
+}
+
+.social.social_facebook {
+    background-image: url("../../assets/images/socials/fb.png");
+}
+
+.social.social_instagram {
+    background-image: url("../../assets/images/socials/instagram.png");
+}
+
+.social.social_google {
+    background-image: url("../../assets/images/socials/google.png");
+}
+
+.social.social_github {
+    background-image: url("../../assets/images/socials/github.png");
+}
+
+.social.social_hh {
+    background-image: url("../../assets/images/socials/hh.svg");
+}
+
+.c-icon {
+    background-size: 16px;
+    display: inline-block;
+    height: 16px;
+    margin: 0 4px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.c-icon.c-icon_walk {
+    background-image: url("../../assets/images/walk.svg");
+    margin: 0 4px;
+}
+
+.c-icon.c-icon_moscow-subway {
+    background-image: url("../../assets/images/subway.svg");
+}
+
+.c-icon.c-icon_mcd-1,
+.c-icon.c-icon_mcd-2 {
+    background-size: 32px 16px;
+    height: 16px;
+    width: 32px;
+}
+
+.info-icon {
+    color: #bbb;
+}
+
+.info-label {
+    display: inline-block;
+}
+
+.info-secondary {
+    color: #333;
+    font-size: .9em;
+}
+
+.info-secondary .info-icon {
+    font-size: 1.1em;
+}
+
+.work-dates .info-icon {
+    font-size: 1.3em;
+}
+
+.work-dates {
+    color: #555;
+    font-size: .85em;
+}
+
+/* Планшетная версия */
+@media screen and (max-width: 992px) {
+    .head-share.v-btn:not(.v-btn--round).v-size--default {
+        margin: 0;
+    }
+
+    .v-content__wrap {
+        margin: 5px auto!important;
+        padding: 10px;
+    }
+
+    .company {
+        float: none;
+        margin: 5px auto;
+        width: 100%;
+    }
+
+    .main-info {
+        float: none;
+        margin: auto;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .qr-code {
+        float: none;
+        margin: auto;
+    }
+
+    h1 {
+        line-height: 24px;
+        margin: 0 auto 15px;
+    }
+
+    .head-primary {
+        font-size: 0.8em;
+    }
+
+    .head-messengers {
+        display: none;
+    }
+
+    .phone-messengers {
+        display: inline-block;
+    }
+
+    .head-primary,
+    .head-socials {
+        float: none;
+    }
+
+    .head-secondary,
+    .head-socials {
+        line-height: 12px;
+    }
+
+    .messenger, .social {
+        background-size: 20px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+/* Мобильная версия */
+@media screen and (max-width: 576px) {
+    .info-label {
+        display: none;
+    }
+
+    .messenger-separator {
+        margin: 0 4px;
+    }
+
+    .v-content__wrap {
+        padding: 5px;
+    }
+
+    .v-card.v-sheet {
+        padding: 20px 8px;
+    }
+
+    .subway-line-name {
+        display: none;
+    }
+
+    h1, h4 {
+        text-align: center;
+    }
+
+    .copy-button {
+        display: none;
+    }
+
+    .head-primary {
+        font-size: .7em;
+    }
+
+    .messenger, .social {
+        background-size: 16px;
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .head-primary {
+        font-size: .6em;
+        margin: 0 4px 0 0;
+    }
+
+    .head-primary .name-icon {
+        background-size: 24px;
+        height: 24px;
+        vertical-align: -6px;
+        width: 24px;
+    }
+
+    .head-share.v-btn {
+        width: 20px!important;
+    }
+
+    .head-share.v-btn .share-icon {
+        background-size: 20px;
+        margin-top: -4px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .head-share.v-btn,
+    .head-primary .name-icon,
+    .operator {
+        display: none;
+    }
+}

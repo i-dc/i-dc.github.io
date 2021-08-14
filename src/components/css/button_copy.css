@@ -1,0 +1,45 @@
+.button-copy,
+.button-copy.v-btn.v-btn--text {
+    cursor: pointer;
+    height: auto;
+    margin: 0 5px;
+    min-width: auto;
+    padding: 0;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.button-copy.text-transform-none.v-btn.v-size--default {
+    min-width: 20px;
+    padding: 0;
+}
+
+.button-copy.v-btn.v-btn--text .v-btn__content {
+    color: #4e98f9;
+    font-weight: normal;
+    transition: color .4s ease-out;
+    white-space: nowrap;
+}
+
+.button-copy .button-copy__icon {
+    font-size: 1.2em;
+}
+
+@media (hover) {
+    .button-copy.v-btn.v-btn--text:hover .v-btn__content {
+        color: #ff6565;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button-copy .button-copy__label {
+        display: none;
+    }
+}
+
+/** Сверхмобильная версия */
+@media screen and (max-width: 370px) {
+    .button-copy .button-copy__icon {
+        font-size: 1em;
+    }
+}

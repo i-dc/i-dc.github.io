@@ -1,0 +1,134 @@
+{
+  "timezone": "Europe/Moscow",
+  "first_name": {
+    "en": "Dmitry",
+    "ru": "Дмитрий"
+  },
+  "middle_name": {
+    "en": "Dmitrievich",
+    "ru": "Дмитриевич"
+  },
+  "last_name": {
+    "en": "Chekhov",
+    "ru": "Чехов"
+  },
+  "gender": "Male",
+  "birthday": "1990-09-27",
+  "phone": {
+    "country": {
+      "code": "ru",
+      "name": {
+        "en": "Russia",
+        "ru": "Россия"
+      }
+    },
+    "region": {
+      "code": "mosreg",
+      "name": {
+        "en": "Moscow",
+        "ru": "Москва и Московская область"
+      }
+    },
+    "operator": {
+      "code": "megafon",
+      "name": {
+        "en": "Megafon",
+        "ru": "Мегафон"
+      }
+    },
+    "messengers": {
+      "telegram": "i_red_bull",
+      "whatsapp": true
+    },
+    "value": {
+      "short": "79261393029",
+      "formatted": "+7 926 139-30-29"
+    },
+    "best_call_time": [10, 22]
+  },
+  "emails": ["dc@phystech.edu", "info-main@ya.ru", "dchekhov@waviot.ru"],
+  "socials": {
+    "vk": "https://vk.com/id104255315",
+    "github": "https://github.com/i-dc",
+    "facebook": "https://www.facebook.com/s0qwerty/",
+    "instagram": "https://www.instagram.com/yet_another__life/"
+  },
+  "work": [
+    {
+      "code": "waviot",
+      "name": {
+        "en": "Waviot LLC",
+        "ru": "Waviot"
+      },
+      "address": {
+        "en": "Moscow, Lesnaya street, 3",
+        "ru": "Москва, улица Лесная, 3"
+      },
+      "coords": [55.777251, 37.586006],
+      "location": {
+        "country": {
+          "code": "ru",
+          "name": {
+            "en": "Russia",
+            "ru": "Российская Федерация"
+          }
+        },
+        "locality": {
+          "code": "moscow",
+          "name": {
+            "en": "Moscow",
+            "ru": "Москва"
+          }
+        },
+        "street": {
+          "name": {
+            "en": "Lesnaya street",
+            "ru": "улица Лесная"
+          }
+        },
+        "house": {
+          "name": {
+            "en": "3",
+            "ru": "дом 3"
+          }
+        },
+        "zip_code": "125047",
+        "subway": {
+          "type": "moscow-subway",
+          "name": {
+            "en": "Belorusskaya",
+            "ru": "Белорусская"
+          },
+          "line": {
+            "color": "915133",
+            "name": {
+              "en": "brown line",
+              "ru": "кольцевая линия"
+            },
+            "city": {
+              "en": "Moscow",
+              "ru": "Москва"
+            }
+          },
+          "coords": [55.777644, 37.586173],
+          "route_link": "",
+          "distance": {
+            "time": "",
+            "value": ""
+          }
+        }
+      },
+      "position": {
+        "icon": "star",
+        "name": {
+          "en": "Team Lead / Fullstack Developer",
+          "ru": "Team Lead / Fullstack Developer"
+        }
+      },
+      "website": {
+        "en": "https://waviot.com",
+        "ru": "https://waviot.ru"
+      }
+    }
+  ]
+}

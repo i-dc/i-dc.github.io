@@ -1,0 +1,536 @@
+{
+  "change_layout": {
+    "en": "Use latin letters!",
+    "ru": "Смените раскладку!"
+  },
+  "back": {
+    "en": "Back",
+    "ru": "Назад"
+  },
+  "next": {
+    "en": "Next",
+    "ru": "Вперёд"
+  },
+  "controls": {
+    "en": "Controls",
+    "ru": "Управление"
+  },
+  "profile": {
+    "en": "Profile",
+    "ru": "Профиль"
+  },
+  "full_name": {
+    "en": "Full name",
+    "ru": "Полное имя"
+  },
+  "bitrh_date": {
+    "en": "Bitrh date",
+    "ru": "Дата рождения"
+  },
+  "phone": {
+    "en": "Phone number",
+    "ru": "Телефон"
+  },
+  "education": {
+    "en": "Education",
+    "ru": "Образование"
+  },
+  "education_direction": {
+    "en": "Direction",
+    "ru": "Направление подготовки"
+  },
+  "education_speciality": {
+    "en": "Speciality",
+    "ru": "Программа подготовки"
+  },
+  "user_profile": {
+    "en": "User profile",
+    "ru": "Профиль пользователя"
+  },
+  "statistics": {
+    "en": "Statistics",
+    "ru": "Статистика"
+  },
+  "events": {
+    "en": "Events",
+    "ru": "События"
+  },
+  "messages": {
+    "en": "Messages",
+    "ru": "Сообщения"
+  },
+  "terms_of_use": {
+    "en": "Terms of use",
+    "ru": "Правовая информация"
+  },
+  "search": {
+    "en": "Search",
+    "ru": "Поиск"
+  },
+  "language": {
+    "en": "Language",
+    "ru": "Язык"
+  },
+  "notifications": {
+    "en": "Notifications",
+    "ru": "Уведомления"
+  },
+  "report_error": {
+    "en": "Report an error",
+    "ru": "Сообщить об ошибке"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отменить"
+  },
+  "apply": {
+    "en": "Apply",
+    "ru": "Применить"
+  },
+  "save": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "invalid_response": {
+    "en": "Something went wrong, try again later",
+    "ru": "Что-то пошло не так, попробуйте позднее"
+  },
+  "server_error": {
+    "en": "Server error",
+    "ru": "Ошибка на стороне сервера"
+  },
+  "network_error": {
+    "en": "Network error",
+    "ru": "Ошибка сети, проверьте подключение"
+  },
+  "access_denied": {
+    "en": "Access denied",
+    "ru": "Доступ запрещён"
+  },
+  "not_found": {
+    "en": "Not found",
+    "ru": "Не найдено"
+  },
+  "invalid_request": {
+    "en": "Invalid request",
+    "ru": "Некорректный запрос"
+  },
+  "error_code": {
+    "en": "Error, code",
+    "ru": "Ошибка, код"
+  },
+  "yes": {
+    "en": "Yes",
+    "ru": "Да"
+  },
+  "no": {
+    "en": "No",
+    "ru": "Нет"
+  },
+  "settings": {
+    "en": "Settings",
+    "ru": "Настройки"
+  },
+  "main_settings": {
+    "en": "Main settings",
+    "ru": "Основные настройки"
+  },
+  "date_time": {
+    "en": "Date and time",
+    "ru": "Дата и время"
+  },
+  "what_is_it": {
+    "en": "What is it?",
+    "ru": "Что это?"
+  },
+  "what": {
+    "en": "What is it?",
+    "ru": "Что всё это значит?"
+  },
+  "info": {
+    "en": "Info",
+    "ru": "Инфо"
+  },
+  "copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "copied": {
+    "en": "Copied!",
+    "ru": "Скопировано!"
+  },
+  "email_copied": {
+    "en": "Email copied!",
+    "ru": "Email скопирован!"
+  },
+  "write_to": {
+    "en": "Write to",
+    "ru": "Написать на"
+  },
+  "phone_call": {
+    "en": "Call",
+    "ru": "Позвонить по телефону"
+  },
+  "institute_site": {
+    "en": "Institute's official website",
+    "ru": "Официальный сайт института"
+  },
+  "institution_site": {
+    "en": "The official website of the institution",
+    "ru": "Официальный сайт учебного заведения"
+  },
+  "phone_copied": {
+    "en": "Phone copied!",
+    "ru": "Номер телефона скопирован!"
+  },
+  "main_info": {
+    "en": "Main info",
+    "ru": "Основная информация"
+  },
+  "shortly": {
+    "en": "Shortly",
+    "ru": "Наглядно"
+  },
+  "in_detail": {
+    "en": "In detail",
+    "ru": "Подробно"
+  },
+  "timezone": {
+    "en": "Timezone",
+    "ru": "Часовой пояс"
+  },
+  "type": {
+    "en": "Type",
+    "ru": "Тип"
+  },
+  "comment": {
+    "en": "Comment",
+    "ru": "Комментарий"
+  },
+  "online": {
+    "en": "Online",
+    "ru": "Онлайн"
+  },
+  "offline": {
+    "en": "Offline",
+    "ru": "Офлайн"
+  },
+  "switch_language": {
+    "en": "Switch language",
+    "ru": "Переключить язык"
+  },
+  "address": {
+    "en": "Address",
+    "ru": "Адрес"
+  },
+  "years_single": {
+    "en": "year",
+    "ru": "год"
+  },
+  "years_decl": {
+    "en": "years",
+    "ru": "года"
+  },
+  "years_many": {
+    "en": "years",
+    "ru": "лет"
+  },
+  "months_single": {
+    "en": "month",
+    "ru": "месяц"
+  },
+  "months_decl": {
+    "en": "months",
+    "ru": "месяца"
+  },
+  "months_many": {
+    "en": "months",
+    "ru": "месяцев"
+  },
+  "days_single": {
+    "en": "day",
+    "ru": "день"
+  },
+  "days_decl": {
+    "en": "days",
+    "ru": "дня"
+  },
+  "days_many": {
+    "en": "days",
+    "ru": "дней"
+  },
+  "hours_single": {
+    "en": "hour",
+    "ru": "час"
+  },
+  "hours_decl": {
+    "en": "hours",
+    "ru": "часа"
+  },
+  "hours_many": {
+    "en": "hours",
+    "ru": "часов"
+  },
+  "minutes_single_alt": {
+    "en": "minute",
+    "ru": "минута"
+  },
+  "minutes_single": {
+    "en": "minute",
+    "ru": "минуту"
+  },
+  "minutes_decl": {
+    "en": "minutes",
+    "ru": "минуты"
+  },
+  "minutes_many": {
+    "en": "minutes",
+    "ru": "минут"
+  },
+  "seconds_single": {
+    "en": "second",
+    "ru": "секунду"
+  },
+  "seconds_decl": {
+    "en": "seconds",
+    "ru": "секунды"
+  },
+  "seconds_many": {
+    "en": "seconds",
+    "ru": "секунд"
+  },
+  "Total": {
+    "en": "Total",
+    "ru": "Всего"
+  },
+  "all": {
+    "en": "All",
+    "ru": "Все"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "list": {
+    "en": "List",
+    "ru": "Список"
+  },
+  "expand": {
+    "en": "Expand",
+    "mn": "Expand",
+    "ru": "Развернуть",
+    "ua": "Развернуть"
+  },
+  "collapse": {
+    "en": "Collapse",
+    "mn": "Collapse",
+    "ru": "Свернуть",
+    "ua": "Свернуть"
+  },
+  "status": {
+    "en": "Status",
+    "mn": "Status",
+    "ru": "Статус",
+    "ua": "Статус"
+  },
+  "share": {
+    "en": "Share",
+    "ru": "Поделиться"
+  },
+  "share_page": {
+    "en": "Share page link",
+    "ru": "Поделиться ссылкой на страницу"
+  },
+  "share_page_copied": {
+    "en": "A link to the current page is copied!",
+    "ru": "Ссылка на текущую страницу скопирована!"
+  },
+  "map": {
+    "en": "Map",
+    "ru": "Карта"
+  },
+  "on_map": {
+    "en": "On the map",
+    "ru": "На карте"
+  },
+  "show_on_map": {
+    "en": "Show on the map",
+    "ru": "Показать на карте"
+  },
+  "position": {
+    "en": "Position",
+    "ru": "Должность"
+  },
+  "Gateway Time-out": {
+    "en": "The server took too long to answer, try again later",
+    "ru": "Сервер почему-то слишком долго не отвечал, попробуйте позднее"
+  },
+  "Bad Request": {
+    "en": "Bad Request",
+    "ru": "Некорректный запрос"
+  },
+  "loading_short": {
+    "en": "Loading…",
+    "ru": "Скоро всё будет готово…"
+  },
+  "loading_title": {
+    "en": "Loading…",
+    "ru": "Идёт загрузка, скоро всё будет готово…"
+  },
+  "not_specified_m": {
+    "en": "not specified",
+    "ru": "не указан"
+  },
+  "not_specified_n": {
+    "en": "not specified",
+    "ru": "не указано"
+  },
+  "not_specified_f": {
+    "en": "not specified",
+    "ru": "не указана"
+  },
+  "invalid_form": {
+    "en": "Invalid form",
+    "ru": "Форма заполнена некорректно"
+  },
+  "request": {
+    "en": "Request",
+    "ru": "Запросить"
+  },
+  "set": {
+    "en": "Set",
+    "ru": "Установить"
+  },
+  "tech_info": {
+    "en": "Tech info",
+    "ru": "Техническая информация"
+  },
+  "last_online": {
+    "en": "Last online",
+    "ru": "Последний раз в сети"
+  },
+  "project_list": {
+    "en": "Project List",
+    "ru": "Список проектов"
+  },
+  "_about": {
+    "en": "About",
+    "ru": "Об авторе"
+  },
+  "write_telegram": {
+    "en": "Write to Telegram",
+    "ru": "Написать в Telegram"
+  },
+  "write_whatsapp": {
+    "en": "Write to WhatsApp",
+    "ru": "Написать в WhatsApp"
+  },
+  "write_yandex": {
+    "en": "Write to Yandex.Messenger",
+    "ru": "Написать в Яндекс.Мессенджер"
+  },
+  "social_networks": {
+    "en": "Social networks",
+    "ru": "Социальные сети"
+  },
+  "work": {
+    "en": "Work",
+    "ru": "Работа"
+  },
+  "vk": {
+    "en": "VK Social Network",
+    "ru": "Вконтакте"
+  },
+  "organization_website": {
+    "en": "Organization website",
+    "ru": "Официальный сайт организации"
+  },
+  "_from": {
+    "en": "From",
+    "ru": "С"
+  },
+  "_year_short": {
+    "en": "",
+    "ru": "г."
+  },
+  "qr_copied": {
+    "en": "The contents of the QR code copied to the clipboard!",
+    "ru": "Содержимое QR-кода скопировано в буфер обмена!"
+  },
+  "location": {
+    "en": "Location",
+    "ru": "Расположение"
+  },
+  "yandex_aura": {
+    "en": "Yandex Aura",
+    "ru": "Яндекс Аура"
+  },
+  "show_subway_scheme": {
+    "en": "Show subway scheme",
+    "ru": "Показать схему метро"
+  },
+  "meter_short": {
+    "en": "m",
+    "ru": "м"
+  },
+  "kilometer_short": {
+    "en": "km",
+    "ru": "км"
+  },
+  "from_station": {
+    "en": "from station",
+    "ru": "от станции"
+  },
+  "from_subway": {
+    "en": "from subway",
+    "ru": "от метро"
+  },
+  "best_call_time": {
+    "en": "Best time to call",
+    "ru": "Удобное время для звонка"
+  },
+  "website": {
+    "en": "Web site",
+    "ru": "Официальный сайт"
+  },
+  "save_contact": {
+    "en": "Save contact",
+    "ru": "Сохранить контакт"
+  },
+  "share_telegram": {
+    "en": "Share with Telegram",
+    "ru": "Поделиться через Telegram"
+  },
+  "share_whatsapp": {
+    "en": "Share with WhatsApp",
+    "ru": "Поделиться через WhatsApp"
+  },
+  "share_vk": {
+    "en": "Share with vk.com",
+    "ru": "Поделиться через vk.com"
+  },
+  "share_twitter": {
+    "en": "Share with Twitter",
+    "ru": "Поделиться через Twitter"
+  },
+  "share_facebook": {
+    "en": "Share with Facebook",
+    "ru": "Поделиться через Facebook"
+  },
+  "share_ok": {
+    "en": "Share with ok.ru",
+    "ru": "Поделиться через ok.ru"
+  },
+  "page_link": {
+    "en": "Page Link",
+    "ru": "Ссылка на страницу"
+  },
+  "_share_page_copy": {
+    "en": "Copy page link",
+    "ru": "Скопировать cсылкe на страницу"
+  },
+  "share_socials": {
+    "en": "Share with",
+    "ru": "Поделиться через"
+  }
+}
