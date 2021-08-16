@@ -4,6 +4,12 @@
 
 https://i-dc.github.io/
 
+## Wiki ##
+
+https://en.wikipedia.org/wiki/VCard
+
+https://ru.wikipedia.org/wiki/VCard
+
 ## Quick start ##
 
 ```bash

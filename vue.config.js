@@ -73,6 +73,12 @@ module.exports = {
                     density: 2
                 },
                 {
+                    src: process.env.VUE_APP_PATH +  "icons/128x128.png",
+                    sizes: "128x128",
+                    type: "image/png",
+                    density: 2
+                },
+                {
                     src: process.env.VUE_APP_PATH +  "icons/144x144.png",
                     sizes: "144x144",
                     type: "image/png",
