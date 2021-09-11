@@ -134,7 +134,7 @@ const avatar = fs.readFileSync(path.resolve(`./public/${env["VUE_APP_AVATAR_SRC"
 vCard.push(`PHOTO;ENCODING=b;TYPE=JPEG:${avatar}`);
 
 vCard.push(`TZ:${moment.format("Z")}`);
-vCard.push(`SOURCE:${vcardLink}public/${env["VUE_APP_VCARD_SRC"]}`);
+vCard.push(`SOURCE:${vcardLink}${env["VUE_APP_VCARD_SRC"]}`);
 vCard.push(`REV:${moment.format("YYYY-MM-DDTHH:mm:SSZ")}`);
 vCard.push("END:VCARD");
 
