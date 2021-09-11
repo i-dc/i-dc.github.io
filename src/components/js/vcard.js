@@ -4,7 +4,7 @@ import {translate} from "@/utils/general";
 import userData from "@/data/user_data";
 import socials from "@/data/socials";
 import QRCode from "qrcode";
-import {getMapLink, getDistance, getWalkingTime, beautifyDistance, getRouteLink} from "@/utils/geo";
+import {beautifyDistance, getDistance, getMapLink, getRouteLink, getWalkingTime} from "@/utils/geo";
 
 export default {
     name: "Vcard",
@@ -59,15 +59,13 @@ export default {
         this.generateQr();
 
         this["userData"]["work"].map(work => {
-            if (!work["coords"] || !work["location"]["subway"] || !work["location"]["subway"]["coords"]) {
+            if (!work["coords"] || !work?.location?.subway?.coords) {
                 return work;
             }
 
-            let distance, walkingTime;
-            distance = getDistance(work["coords"], work["location"]["subway"]["coords"]);
-            walkingTime = getWalkingTime(distance);
+            const distance = getDistance(work["coords"], work["location"]["subway"]["coords"]);
 
-            work["location"]["subway"]["distance"]["time"] = walkingTime;
+            work["location"]["subway"]["distance"]["time"] = getWalkingTime(distance);
             work["location"]["subway"]["distance"]["value"] = beautifyDistance(distance);
             if (work["location"]["subway"]["type"] === "moscow-mcd") {
                 work["location"]["subway"]["distance"]["time"] += " " + translate("from_station");
