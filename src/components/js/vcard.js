@@ -25,7 +25,7 @@ export default {
             return `https://t.me/${userData["phone"]["messengers"]["telegram"]}`;
         },
         whatsapp_link() {
-            return `whatsapp://send/?phone=+${userData["phone"]["value"]["short"]}`;
+            return `https://wa.me/${userData["phone"]["value"]["short"]}`;
         },
         vcard_link() {
             return this["appPath"] + process.env.VUE_APP_VCARD_SRC;

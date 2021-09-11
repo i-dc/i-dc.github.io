@@ -45,14 +45,22 @@
     display: block;
     float: left;
     height: 100px;
-    margin: auto 10px auto 0;
+    margin: auto 0;
     width: 150px;
+}
+
+.company.company_sber {
+    background-image: url("../../assets/images/companies/sber.svg");
 }
 
 .main-info {
     float: left;
     margin: auto 30px;
     display: block;
+}
+
+.main-info > div {
+    margin: 2px auto;
 }
 
 .qr-code {
@@ -62,17 +70,9 @@
     transition: color .4s ease-out, opacity .4s ease-out;
 }
 
-.company.company_waviot {
-    background-image: url("../../assets/images/companies/waviot.png");
-}
-
 .info-icon.position_star.material-icons {
     color: #ffb300;
     vertical-align: top;
-}
-
-.location {
-    margin: 0 4px 0 2px;
 }
 
 .subway-line-icon {
@@ -103,6 +103,12 @@
     width: 28px;
 }
 
+.approved-icon {
+    color: #4baf4f;
+    font-size: 1.1em;
+    vertical-align: -4px;
+}
+
 .vcard-link {
     display: inline-block;
 }
@@ -128,8 +134,7 @@
     width: 36px;
 }
 
-.email-link,
-.phone-link {
+.data-value {
     display: inline-block;
     margin: 0 2px 0 6px;
 }
@@ -137,7 +142,7 @@
 .location {
     background-size: 24px 16px;
     display: inline-block;
-    margin: 0 2px;
+    margin: 0 8px 0 4px;
     height: 16px;
     vertical-align: middle;
     width: 24px;
@@ -259,14 +264,14 @@
     background-size: 16px;
     display: inline-block;
     height: 16px;
-    margin: 0 4px;
+    margin: 0 8px;
     vertical-align: middle;
     width: 16px;
 }
 
 .c-icon.c-icon_walk {
     background-image: url("../../assets/images/walk.svg");
-    margin: 0 4px;
+    margin: 0 13px 0 8px;
 }
 
 .c-icon.c-icon_moscow-subway {
@@ -282,10 +287,12 @@
 
 .info-icon {
     color: #bbb;
+    user-select: none;
 }
 
 .info-label {
     display: inline-block;
+    margin: 0 0 0 5px;
 }
 
 .info-secondary {

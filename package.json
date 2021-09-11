@@ -36,7 +36,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "moment-timezone": "^0.5.33",
     "request": "^2.88.2",
-    "sass": "^1.19.0",
+    "sass": "1.32.0",
     "sass-loader": "^8.0.0",
     "url-parse": "^1.5.3",
     "vue-cli-plugin-vuetify": "^2.0.5",

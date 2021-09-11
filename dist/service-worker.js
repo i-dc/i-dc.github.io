@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5f525cd4c935fc47c31dc006cdefc2c1.js"
+  "/precache-manifest.e9aca86e792a2619392a69b4ccf8b633.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vcard"});
