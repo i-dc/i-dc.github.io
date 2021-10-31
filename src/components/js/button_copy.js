@@ -8,7 +8,7 @@ export default {
     },
     methods: {
         copy() {
-            return this.$copy(this["content"]);
+            return this.$copy(this.content);
         },
         translate
     }

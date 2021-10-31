@@ -61,6 +61,12 @@
               <a :href="work['website'][language]"> {{work["website"][language]}}</a>
             </div>
 
+            <div v-if="work['remote']">
+              <i class="info-icon material-icons">home</i>
+              <span class="info-label">{{translate("remote_days")}}:</span>
+              <span class="remote-day" :key="'remote-' + day" :title="translate(day)" v-for="day in work['remote']">{{translate(`${day}_short`)}}</span>
+            </div>
+
             <div class="work-info">
               <div>
                 <span :class="'location location_' + work['location']['region']['code']" :title="work['location']['region']['name'][language]" v-if="work['location']['region']"></span>

@@ -45,7 +45,10 @@
       "formatted": "+7 926 139-30-29"
     }
   },
-  "emails": ["dc@phystech.edu", "info-main@ya.ru"],
+  "emails": [
+    "dc@phystech.edu",
+    "info-main@ya.ru"
+  ],
   "socials": {
     "vk": "https://vk.com/id104255315",
     "github": "https://github.com/i-dc",
@@ -53,82 +56,95 @@
     "instagram": "https://www.instagram.com/yet_another__life/"
   },
   "covid": "https://immune.mos.ru/qr?id=Y7KAK240B4HK",
-  "work": [
-    {
-      "code": "sber",
-      "name": {
-        "en": "Sberbank",
-        "ru": "Sberbank"
+  "work": {
+    "remote_days": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "code": "sber",
+    "name": {
+      "en": "Sberbank",
+      "ru": "Sberbank"
+    },
+    "address": {
+      "en": "Moscow, Poklonaya street, 3",
+      "ru": "Москва, Поклонная улица, 3"
+    },
+    "coords": [
+      55.736179,
+      37.533194
+    ],
+    "location": {
+      "country": {
+        "code": "ru",
+        "name": {
+          "en": "Russia",
+          "ru": "Российская Федерация"
+        }
       },
-      "address": {
-        "en": "Moscow, Poklonaya street, 3",
-        "ru": "Москва, Поклонная улица, 3"
+      "locality": {
+        "code": "moscow",
+        "name": {
+          "en": "Moscow",
+          "ru": "Москва"
+        }
       },
-      "coords": [55.736179, 37.533194],
-      "location": {
-        "country": {
-          "code": "ru",
-          "name": {
-            "en": "Russia",
-            "ru": "Российская Федерация"
-          }
+      "street": {
+        "name": {
+          "en": "Poklonaya street",
+          "ru": "Поклонная улица"
+        }
+      },
+      "house": {
+        "name": {
+          "en": "3",
+          "ru": "дом 3"
+        }
+      },
+      "zip_code": "121170",
+      "subway": {
+        "type": "moscow-subway",
+        "name": {
+          "en": "Kutuzovskaya",
+          "ru": "Кутузовская"
         },
-        "locality": {
-          "code": "moscow",
+        "line": {
+          "color": "0099cc",
           "name": {
+            "en": "light blue line",
+            "ru": "филёвская линия"
+          },
+          "city": {
             "en": "Moscow",
             "ru": "Москва"
           }
         },
-        "street": {
-          "name": {
-            "en": "Poklonaya street",
-            "ru": "Поклонная улица"
-          }
-        },
-        "house": {
-          "name": {
-            "en": "3",
-            "ru": "дом 3"
-          }
-        },
-        "zip_code": "121170",
-        "subway": {
-          "type": "moscow-subway",
-          "name": {
-            "en": "Kutuzovskaya",
-            "ru": "Кутузовская"
-          },
-          "line": {
-            "color": "0099cc",
-            "name": {
-              "en": "light blue line",
-              "ru": "филёвская линия"
-            },
-            "city": {
-              "en": "Moscow",
-              "ru": "Москва"
-            }
-          },
-          "coords": [55.739410, 37.534941],
-          "route_link": "",
-          "distance": {
-            "time": "",
-            "value": ""
-          }
+        "coords": [
+          55.739410,
+          37.534941
+        ],
+        "route_link": "",
+        "distance": {
+          "time": "",
+          "value": ""
         }
-      },
-      "position": {
-        "icon": "star",
-        "name": {
-          "en": "Frontend Developer",
-          "ru": "Frontend Developer"
-        }
-      },
-      "website": {
-        "en": "https://sberbank.com",
-        "ru": "https://sber.ru"
       }
+    },
+    "position": {
+      "icon": "star",
+      "name": {
+        "en": "Frontend Developer",
+        "ru": "Frontend Developer"
+      }
+    },
+    "website": {
+      "en": "https://sberbank.com",
+      "ru": "https://sber.ru"
     }
-  ]
+  }
 }

@@ -5,6 +5,6 @@ export default {
     }),
     methods: {},
     mounted() {
-        this["ready"] = true;
+        this.ready = true;
     }
 };

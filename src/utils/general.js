@@ -12,11 +12,11 @@ export function translate(title) {
     const lang = getCurrentLang(),
         translations = translationsApp;
 
-    if (!translations?.[title]?.[lang]) {
+    if (!translations?.[lang]?.[title]) {
         return title;
     }
 
-    return translations[title][lang];
+    return translations[lang][title];
 }
 
 /**
@@ -33,11 +33,11 @@ export function numberDeclension(number, words = ["years_single", "years_decl", 
     }
 
     number = String(number);
-    if (number[number["length"] - 1] === "1" && number[number["length"] - 2] !== "1") {
+    if (number[number.length - 1] === "1" && number[number.length - 2] !== "1") {
         return words[0];
     }
 
-    if (["2", "3", "4"].indexOf(number[number["length"] - 1]) !== -1 && number[number["length"] - 2] !== "1") {
+    if (["2", "3", "4"].indexOf(number[number.length - 1]) !== -1 && number[number.length - 2] !== "1") {
         return words[1];
     }
 

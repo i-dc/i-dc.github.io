@@ -1,174 +1,122 @@
 {
-  "phone": {
-    "en": "Phone number",
-    "ru": "Телефон"
+  "en": {
+    "phone": "Phone number",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "email_copied": "Email copied!",
+    "write_to": "Write to",
+    "phone_call": "Call",
+    "phone_copied": "Phone copied!",
+    "address": "Address",
+    "share": "Share",
+    "share_page": "Share page link",
+    "share_page_copied": "A link to the current page is copied!",
+    "show_on_map": "Show on the map",
+    "position": "Position",
+    "write_telegram": "Write to Telegram",
+    "write_whatsapp": "Write to WhatsApp",
+    "social_networks": "Social networks",
+    "work": "Work",
+    "vk": "VK Social Network",
+    "qr_copied": "The contents of the QR code copied to the clipboard!",
+    "show_subway_scheme": "Show subway scheme",
+    "meter_short": "m",
+    "kilometer_short": "km",
+    "from_station": "from station",
+    "from_subway": "from subway",
+    "website": "Web site",
+    "save_contact": "Save contact",
+    "share_telegram": "Share with Telegram",
+    "share_whatsapp": "Share with WhatsApp",
+    "share_vk": "Share with vk.com",
+    "share_twitter": "Share with Twitter",
+    "share_facebook": "Share with Facebook",
+    "share_ok": "Share with ok.ru",
+    "page_link": "Page Link",
+    "_share_page_copy": "Copy page link",
+    "share_socials": "Share with",
+    "hours_single": "hours",
+    "hours_decl": "hours",
+    "hours_many": "hours",
+    "minutes_single_alt": "minutes",
+    "minutes_decl": "minutes",
+    "minutes_many": "minutes",
+    "vaccination": "Vaccination",
+    "certificate": "certificate",
+    "remote_days": "Remote work days",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "monday_short": "mo",
+    "tuesday_short": "tu",
+    "wednesday_short": "we",
+    "thursday_short": "th",
+    "friday_short": "fr",
+    "saturday_short": "sa",
+    "sunday_short": "su"
   },
-  "copy": {
-    "en": "Copy",
-    "ru": "Копировать"
-  },
-  "copied": {
-    "en": "Copied!",
-    "ru": "Скопировано!"
-  },
-  "email_copied": {
-    "en": "Email copied!",
-    "ru": "Email скопирован!"
-  },
-  "write_to": {
-    "en": "Write to",
-    "ru": "Написать на"
-  },
-  "phone_call": {
-    "en": "Call",
-    "ru": "Позвонить по телефону"
-  },
-  "phone_copied": {
-    "en": "Phone copied!",
-    "ru": "Номер телефона скопирован!"
-  },
-  "address": {
-    "en": "Address",
-    "ru": "Адрес"
-  },
-  "share": {
-    "en": "Share",
-    "ru": "Поделиться"
-  },
-  "share_page": {
-    "en": "Share page link",
-    "ru": "Поделиться ссылкой на страницу"
-  },
-  "share_page_copied": {
-    "en": "A link to the current page is copied!",
-    "ru": "Ссылка на текущую страницу скопирована!"
-  },
-  "show_on_map": {
-    "en": "Show on the map",
-    "ru": "Показать на карте"
-  },
-  "position": {
-    "en": "Position",
-    "ru": "Должность"
-  },
-  "write_telegram": {
-    "en": "Write to Telegram",
-    "ru": "Написать в Telegram"
-  },
-  "write_whatsapp": {
-    "en": "Write to WhatsApp",
-    "ru": "Написать в WhatsApp"
-  },
-  "social_networks": {
-    "en": "Social networks",
-    "ru": "Социальные сети"
-  },
-  "work": {
-    "en": "Work",
-    "ru": "Работа"
-  },
-  "vk": {
-    "en": "VK Social Network",
-    "ru": "Вконтакте"
-  },
-  "qr_copied": {
-    "en": "The contents of the QR code copied to the clipboard!",
-    "ru": "Содержимое QR-кода скопировано в буфер обмена!"
-  },
-  "show_subway_scheme": {
-    "en": "Show subway scheme",
-    "ru": "Показать схему метро"
-  },
-  "meter_short": {
-    "en": "m",
-    "ru": "м"
-  },
-  "kilometer_short": {
-    "en": "km",
-    "ru": "км"
-  },
-  "from_station": {
-    "en": "from station",
-    "ru": "от станции"
-  },
-  "from_subway": {
-    "en": "from subway",
-    "ru": "от метро"
-  },
-  "website": {
-    "en": "Web site",
-    "ru": "Официальный сайт"
-  },
-  "save_contact": {
-    "en": "Save contact",
-    "ru": "Сохранить контакт"
-  },
-  "share_telegram": {
-    "en": "Share with Telegram",
-    "ru": "Поделиться через Telegram"
-  },
-  "share_whatsapp": {
-    "en": "Share with WhatsApp",
-    "ru": "Поделиться через WhatsApp"
-  },
-  "share_vk": {
-    "en": "Share with vk.com",
-    "ru": "Поделиться через vk.com"
-  },
-  "share_twitter": {
-    "en": "Share with Twitter",
-    "ru": "Поделиться через Twitter"
-  },
-  "share_facebook": {
-    "en": "Share with Facebook",
-    "ru": "Поделиться через Facebook"
-  },
-  "share_ok": {
-    "en": "Share with ok.ru",
-    "ru": "Поделиться через ok.ru"
-  },
-  "page_link": {
-    "en": "Page Link",
-    "ru": "Ссылка на страницу"
-  },
-  "_share_page_copy": {
-    "en": "Copy page link",
-    "ru": "Скопировать cсылкe на страницу"
-  },
-  "share_socials": {
-    "en": "Share with",
-    "ru": "Поделиться через"
-  },
-  "hours_single": {
-    "en": "hours",
-    "ru": "час"
-  },
-  "hours_decl": {
-    "en": "hours",
-    "ru": "часа"
-  },
-  "hours_many": {
-    "en": "hours",
-    "ru": "часов"
-  },
-  "minutes_single_alt": {
-    "en": "minutes",
-    "ru": "минутa"
-  },
-  "minutes_decl": {
-    "en": "minutes",
-    "ru": "минуты"
-  },
-  "minutes_many": {
-    "en": "minutes",
-    "ru": "минут"
-  },
-  "vaccination": {
-    "en": "Vaccination",
-    "ru": "Вакцинация"
-  },
-  "certificate": {
-    "en": "certificate",
-    "ru": "сертификат"
+  "ru": {
+    "phone": "Телефон",
+    "copy": "Копировать",
+    "copied": "Скопировано!",
+    "email_copied": "Email скопирован!",
+    "write_to": "Написать на",
+    "phone_call": "Позвонить по телефону",
+    "phone_copied": "Номер телефона скопирован!",
+    "address": "Адрес",
+    "share": "Поделиться",
+    "share_page": "Поделиться ссылкой на страницу",
+    "share_page_copied": "Ссылка на текущую страницу скопирована!",
+    "show_on_map": "Показать на карте",
+    "position": "Должность",
+    "write_telegram": "Написать в Telegram",
+    "write_whatsapp": "Написать в WhatsApp",
+    "social_networks": "Социальные сети",
+    "work": "Работа",
+    "vk": "Вконтакте",
+    "qr_copied": "Содержимое QR-кода скопировано в буфер обмена!",
+    "show_subway_scheme": "Показать схему метро",
+    "meter_short": "м",
+    "kilometer_short": "км",
+    "from_station": "от станции",
+    "from_subway": "от метро",
+    "website": "Официальный сайт",
+    "save_contact": "Сохранить контакт",
+    "share_telegram": "Поделиться через Telegram",
+    "share_whatsapp": "Поделиться через WhatsApp",
+    "share_vk": "Поделиться через vk.com",
+    "share_twitter": "Поделиться через Twitter",
+    "share_facebook": "Поделиться через Facebook",
+    "share_ok": "Поделиться через ok.ru",
+    "page_link": "Ссылка на страницу",
+    "_share_page_copy": "Скопировать cсылкe на страницу",
+    "share_socials": "Поделиться через",
+    "hours_single": "час",
+    "hours_decl": "часа",
+    "hours_many": "часов",
+    "minutes_single_alt": "минутa",
+    "minutes_decl": "минуты",
+    "minutes_many": "минут",
+    "vaccination": "Вакцинация",
+    "certificate": "сертификат",
+    "remote_days": "Дни удалённой работы",
+    "monday": "Понедельник",
+    "tuesday": "Вторник ",
+    "wednesday": "Среда",
+    "thursday": "Четверг",
+    "friday": "Пятница",
+    "saturday": "Суббота",
+    "sunday": "Воскресенье",
+    "monday_short": "пн",
+    "tuesday_short": "вт",
+    "wednesday_short": "ср",
+    "thursday_short": "чт",
+    "friday_short": "пт",
+    "saturday_short": "сб",
+    "sunday_short": "вс"
   }
 }

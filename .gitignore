@@ -1,7 +1,6 @@
 /*
 !/node_exec/
 !/public/
-!/dist/
 !/src/
 !/.gitignore
 !/.gitattributes

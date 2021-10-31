@@ -139,6 +139,10 @@
     margin: 0 2px 0 6px;
 }
 
+.remote-day {
+    margin: 0 0 0 4px;
+}
+
 .location {
     background-size: 24px 16px;
     display: inline-block;
