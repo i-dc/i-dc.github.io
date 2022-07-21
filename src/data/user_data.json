@@ -72,12 +72,12 @@
       "ru": "Sberbank"
     },
     "address": {
-      "en": "Moscow, Poklonaya street, 3",
-      "ru": "Москва, Поклонная улица, 3"
+      "en": "Moscow, Poklonaya street, 3k2",
+      "ru": "Москва, Поклонная улица, 3к2"
     },
     "coords": [
-      55.736179,
-      37.533194
+      55.736743,
+      37.533563
     ],
     "location": {
       "country": {
