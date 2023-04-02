@@ -55,29 +55,28 @@
     "facebook": "https://www.facebook.com/s0qwerty/",
     "instagram": "https://www.instagram.com/yet_another__life/"
   },
-  "covid": "https://immune.mos.ru/my_qr?id=7XHTH24374B7",
   "work": {
     "remote_days": [
       1,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       1,
       0,
-      1
+      0
     ],
-    "code": "sber",
+    "code": "samokat",
     "name": {
-      "en": "Sberbank",
-      "ru": "Sberbank"
+      "en": "Samokat",
+      "ru": "Самокат"
     },
     "address": {
-      "en": "Moscow, Poklonaya street, 3k2",
-      "ru": "Москва, Поклонная улица, 3к2"
+      "en": "Moscow, Sofiyskaya embankment, 30с2",
+      "ru": "Москва, Софийская набережная, 30с2"
     },
     "coords": [
-      55.736743,
-      37.533563
+      55.746861,
+      37.621714
     ],
     "location": {
       "country": {
@@ -96,28 +95,28 @@
       },
       "street": {
         "name": {
-          "en": "Poklonaya street",
-          "ru": "Поклонная улица"
+          "en": "Sofiyskaya embankment",
+          "ru": "Софийская набережная"
         }
       },
       "house": {
         "name": {
-          "en": "3",
-          "ru": "дом 3"
+          "en": "30с2",
+          "ru": "30с2"
         }
       },
-      "zip_code": "121170",
+      "zip_code": "115035",
       "subway": {
         "type": "moscow-subway",
         "name": {
-          "en": "Kutuzovskaya",
-          "ru": "Кутузовская"
+          "en": "Novokuznetskaya",
+          "ru": "Новокузнецкая"
         },
         "line": {
-          "color": "0099cc",
+          "color": "3aa63a",
           "name": {
-            "en": "light blue line",
-            "ru": "филёвская линия"
+            "en": "green line",
+            "ru": "замоскворецкая линия"
           },
           "city": {
             "en": "Moscow",
@@ -125,8 +124,8 @@
           }
         },
         "coords": [
-          55.739410,
-          37.534941
+          55.742387,
+          37.629268
         ],
         "route_link": "",
         "distance": {
@@ -138,13 +137,13 @@
     "position": {
       "icon": "star",
       "name": {
-        "en": "Frontend Developer",
-        "ru": "Frontend Developer"
+        "en": "Fullstack Developer",
+        "ru": "Fullstack Developer"
       }
     },
     "website": {
-      "en": "https://sberbank.com",
-      "ru": "https://sber.ru"
+      "en": "https://samokat.tech",
+      "ru": "https://samokat.tech"
     }
   }
 }
