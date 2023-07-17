@@ -47,13 +47,12 @@
   },
   "emails": [
     "dc@phystech.edu",
+    "dchekhov@samokat.ru",
     "info-main@ya.ru"
   ],
   "socials": {
     "vk": "https://vk.com/id104255315",
-    "github": "https://github.com/i-dc",
-    "facebook": "https://www.facebook.com/s0qwerty/",
-    "instagram": "https://www.instagram.com/yet_another__life/"
+    "github": "https://github.com/i-dc"
   },
   "work": {
     "remote_days": [
@@ -71,12 +70,12 @@
       "ru": "Самокат"
     },
     "address": {
-      "en": "Moscow, Sofiyskaya embankment, 30с2",
-      "ru": "Москва, Софийская набережная, 30с2"
+      "en": "Moscow, Ovchinnikovskaya embankment, 18/1c2",
+      "ru": "Москва, Овчинниковская набережная, 18/1с2"
     },
     "coords": [
-      55.746861,
-      37.621714
+      55.744559,
+      37.633448
     ],
     "location": {
       "country": {
@@ -95,14 +94,14 @@
       },
       "street": {
         "name": {
-          "en": "Sofiyskaya embankment",
-          "ru": "Софийская набережная"
+          "en": "Ovchinnikovskaya embankment",
+          "ru": "Овчинниковская набережная"
         }
       },
       "house": {
         "name": {
-          "en": "30с2",
-          "ru": "30с2"
+          "en": "18/1c2",
+          "ru": "18/1с2"
         }
       },
       "zip_code": "115035",

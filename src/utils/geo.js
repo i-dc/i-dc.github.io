@@ -31,7 +31,7 @@ export function getDistance(pointA, pointB) {
  * @param {number} speed
  * @returns {string}
  */
-export function getWalkingTime(distance, speed = 3400) {
+export function getWalkingTime(distance, speed = 4000) {
     const result = [];
     let hours = 0, minutes = Math.round(60 * (distance / speed));
 
